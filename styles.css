@@ -1,43 +1,62 @@
-/* Kleurenpalet */
+/* Kleuren geïnspireerd op het logo */
 :root {
-  --primary-color: #2e4d3c;      /* donkergroen */
-  --secondary-color: #5c4033;    /* bruin */
-  --accent-color: #a89f91;       /* zandkleur */
-  --background-color: #f4f1ee;   /* licht beige */
-  --text-color: #1f1f1f;
+  --green: #556b2f;
+  --dark-brown: #4e342e;
+  --light-beige: #fdfaf6;
+  --accent-olive: #7a8450;
+  --highlight: #a5a58d;
+  --text-dark: #2d2d2d;
+  --white: #ffffff;
 }
 
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  padding: 0;
+  background-color: var(--light-beige);
+  color: var(--text-dark);
 }
 
 header {
-  background-color: var(--primary-color);
-  color: white;
+  background: linear-gradient(to right, var(--dark-brown), var(--green));
+  color: var(--white);
   padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
+  background-color: var(--white);
+  padding: 4px;
 }
 
 header h1 {
   margin: 0;
+  font-size: 1.8rem;
 }
 
 nav {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 nav a {
-  color: var(--accent-color);
-  margin-right: 1rem;
+  color: var(--light-beige);
+  margin-right: 1.5rem;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: var(--secondary-color);
+  color: var(--highlight);
 }
 
 main {
@@ -45,7 +64,7 @@ main {
 }
 
 h2 {
-  color: var(--primary-color);
+  color: var(--green);
 }
 
 .gallery {
@@ -58,42 +77,44 @@ h2 {
 .gallery img {
   width: 30%;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery img:hover {
   transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 form {
-  background-color: white;
+  background-color: var(--white);
   padding: 2rem;
   max-width: 500px;
-  margin: auto;
+  margin: 2rem auto;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
 label {
   display: block;
   margin-bottom: 1rem;
-  color: var(--primary-color);
+  color: var(--green);
+  font-weight: 600;
 }
 
 input, textarea {
   width: 100%;
   padding: 0.75rem;
   margin-top: 0.5rem;
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-olive);
   border-radius: 8px;
-  background-color: #fff;
+  background-color: var(--light-beige);
   font-size: 1rem;
 }
 
 button {
-  background-color: var(--secondary-color);
-  color: white;
+  background-color: var(--dark-brown);
+  color: var(--white);
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 8px;
@@ -103,5 +124,5 @@ button {
 }
 
 button:hover {
-  background-color: var(--primary-color);
+  background-color: var(--green);
 }
