@@ -1,34 +1,107 @@
+/* Kleurenpalet */
+:root {
+  --primary-color: #2e4d3c;      /* donkergroen */
+  --secondary-color: #5c4033;    /* bruin */
+  --accent-color: #a89f91;       /* zandkleur */
+  --background-color: #f4f1ee;   /* licht beige */
+  --text-color: #1f1f1f;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
+
 header {
-  background-color: #333;
+  background-color: var(--primary-color);
   color: white;
-  padding: 1rem;
+  padding: 1.5rem;
 }
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
 nav a {
-  color: white;
-  margin: 0 1rem;
+  color: var(--accent-color);
+  margin-right: 1rem;
   text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
 main {
-  padding: 1rem;
+  padding: 2rem;
 }
+
+h2 {
+  color: var(--primary-color);
+}
+
 .gallery {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .gallery img {
   width: 30%;
-  border-radius: 8px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
 }
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
 form {
-  max-width: 400px;
+  background-color: white;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
 input, textarea {
   width: 100%;
-  margin-bottom: 1rem;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-color);
 }
