@@ -68,25 +68,22 @@ h2 {
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
+  column-count: 3;
+  column-gap: 1rem;
   padding: 2rem;
 }
 
 .gallery a {
-  flex: 1 1 200px;
-  max-width: 250px;
-  display: block;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .gallery img:hover {
@@ -132,4 +129,16 @@ button {
 
 button:hover {
   background-color: var(--green);
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    column-count: 1;
+  }
 }
