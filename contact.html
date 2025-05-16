@@ -79,7 +79,7 @@
 
   function showAlert(message, type) {
     alertBox.style.display = "flex";
-    alertBox.innerHTML = `<span class="alert-icon">${type === "success" ? "✔️" : "❌"}</span><p class="alert-text">${message}</p>`;
+    alertBox.innerHTML = `<p class="alert-text">${message}</p>`;
 
     alertBox.style.backgroundColor = type === "success" ? "#e0f2e9" : "#f8d7da";
     alertBox.style.color = type === "success" ? "#2d5936" : "#842029";
