@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fotoalbum - TinyWoodArts.nl</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
 </head>
 <body>
   <header>
@@ -19,9 +20,16 @@
     </nav>
   </header>
   <main class="gallery">
-    <img src="images/logo_tiny_boom.png" alt="Voorbeeldfoto" />
-    <img src="images/logo_tiny_boom.png" alt="Voorbeeldfoto" />
-    <img src="images/logo_tiny_boom.png" alt="Voorbeeldfoto" />
+    <a href="images/logo_tiny_boom.png" data-lightbox="album" data-title="Voorbeeldfoto 1">
+      <img src="images/logo_tiny_boom.png" alt="Voorbeeldfoto 1" />
+    </a>
+    <a href="images/logo_tiny_boom.png" data-lightbox="album" data-title="Voorbeeldfoto 2">
+      <img src="images/logo_tiny_boom.png" alt="Voorbeeldfoto 2" />
+    </a>
+    <a href="images/logo_tiny_boom.png" data-lightbox="album" data-title="Voorbeeldfoto 3">
+      <img src="images/logo_tiny_boom.png" alt="Voorbeeldfoto 3" />
+    </a>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 </body>
 </html>
