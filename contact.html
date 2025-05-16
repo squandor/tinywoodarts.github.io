@@ -19,12 +19,28 @@
     </nav>
   </header>
   <main>
-    <form action="mailto:jou@email.com" method="post" enctype="text/plain">
-      <label>Naam:<br><input type="text" name="naam" required /></label><br>
-      <label>Email:<br><input type="email" name="email" required /></label><br>
-      <label>Bericht:<br><textarea name="bericht" required></textarea></label><br>
-      <button type="submit">Verstuur</button>
-    </form>
+   <section class="contact">
+  <h2>Contact</h2>
+  <form action="https://formspree.io/f/xpwdbprv" method="POST">
+    
+    <!-- Honeypot veld tegen spam -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <label for="name">Naam:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Bericht:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <!-- Optioneel: redirect na verzenden -->
+    <!-- <input type="hidden" name="_redirect" value="https://tinywoodarts.nl/bedankt.html"> -->
+
+    <button type="submit">Verstuur</button>
+  </form>
+</section>
   </main>
 </body>
 </html>
