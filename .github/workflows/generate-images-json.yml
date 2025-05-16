@@ -22,8 +22,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name "squandor"
-          git config user.email "s.schins@digitaal-rechercheurs.nl"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add images.json
           git diff --cached --quiet || git commit -m "Automatisch images.json bijgewerkt"
           git push
