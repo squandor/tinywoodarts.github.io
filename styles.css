@@ -68,7 +68,7 @@ h2 {
 }
 
 .gallery {
-  column-count: 3;
+  column-count: 2;
   column-gap: 1rem;
   padding: 2rem;
 }
