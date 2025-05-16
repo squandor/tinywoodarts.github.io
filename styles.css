@@ -23,7 +23,17 @@ header {
   padding: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
+.container {
+    max-width: 800px;
+    margin: auto;
+  
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+h1 {
+    color: #4a3c2c;
+}
 .logo-title {
   display: flex;
   align-items: center;
