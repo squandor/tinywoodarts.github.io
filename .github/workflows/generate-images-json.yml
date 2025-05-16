@@ -1,5 +1,6 @@
 name: Generate images.json
-
+permissions:
+  contents: write
 on:
   push:
     paths:
