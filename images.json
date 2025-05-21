@@ -1,62 +1,294 @@
 [
   {
-    "filename": "Hijskraan_75_euro.jpg",
-    "title": "Hijskraan 75 euro"
+    "filename": "2_vrouwen.jpeg",
+    "title": "2 vrouwen"
   },
   {
-    "filename": "Jozef_en_Maria_12_50_euro.jpg",
-    "title": "Jozef en Maria 12 50 euro"
+    "filename": "Appel_Worm.jpeg",
+    "title": "Appel Worm"
   },
   {
-    "filename": "Kaarsenkandelaar_10_euro.jpg",
-    "title": "Kaarsenkandelaar 10 euro"
+    "filename": "Bij.jpeg",
+    "title": "Bij"
   },
   {
-    "filename": "Kandelaar_12_50_euro.jpg",
-    "title": "Kandelaar 12 50 euro"
+    "filename": "Biljart_keu.jpeg",
+    "title": "Biljart keu"
   },
   {
-    "filename": "Kat_op_wieltjes_10_euro.jpg",
-    "title": "Kat op wieltjes 10 euro"
+    "filename": "Dartpijl.jpeg",
+    "title": "Dartpijl"
   },
   {
-    "filename": "Kerstklok_6_euro.jpg",
-    "title": "Kerstklok 6 euro"
+    "filename": "Dikke_Vogel.jpeg",
+    "title": "Dikke Vogel"
   },
   {
-    "filename": "Ooievaar_10_euro.jpg",
-    "title": "Ooievaar 10 euro"
+    "filename": "Egel.jpeg",
+    "title": "Egel"
   },
   {
-    "filename": "Poppetje_6_euro.jpg",
-    "title": "Poppetje 6 euro"
+    "filename": "Eierdopjes.jpeg",
+    "title": "Eierdopjes"
   },
   {
-    "filename": "Potje_met_deksel_5_euro.jpg",
-    "title": "Potje met deksel 5 euro"
+    "filename": "Engel.jpeg",
+    "title": "Engel"
   },
   {
-    "filename": "Racewagen_25_euro.jpg",
-    "title": "Racewagen 25 euro"
+    "filename": "Haan_en_kip.jpeg",
+    "title": "Haan en kip"
   },
   {
-    "filename": "Slakken_12_50.jpg",
-    "title": "Slakken 12 50"
+    "filename": "Hamer.jpeg",
+    "title": "Hamer"
   },
   {
-    "filename": "Vaas_8_euro.jpg",
-    "title": "Vaas 8 euro"
+    "filename": "Hamster.jpeg",
+    "title": "Hamster"
   },
   {
-    "filename": "Vogel_op_stok_10_euro.jpg",
-    "title": "Vogel op stok 10 euro"
+    "filename": "Hijskraan.jpg",
+    "title": "Hijskraan"
   },
   {
-    "filename": "Vogeltje_6_euro.jpg",
-    "title": "Vogeltje 6 euro"
+    "filename": "Hond.jpeg",
+    "title": "Hond"
   },
   {
-    "filename": "Vrachtwagen_75_euro.jpg",
-    "title": "Vrachtwagen 75 euro"
+    "filename": "Hondje.jpeg",
+    "title": "Hondje"
+  },
+  {
+    "filename": "Houten_Glas.jpeg",
+    "title": "Houten Glas"
+  },
+  {
+    "filename": "Houten_Hamer_2.jpeg",
+    "title": "Houten Hamer 2"
+  },
+  {
+    "filename": "Houten_Urn.jpeg",
+    "title": "Houten Urn"
+  },
+  {
+    "filename": "Houten_Vrouw_2.jpeg",
+    "title": "Houten Vrouw 2"
+  },
+  {
+    "filename": "Jozef_Maria_Jezus.jpeg",
+    "title": "Jozef Maria Jezus"
+  },
+  {
+    "filename": "Jozef_en_Maria.jpg",
+    "title": "Jozef en Maria"
+  },
+  {
+    "filename": "Kaarsenkandelaar.jpg",
+    "title": "Kaarsenkandelaar"
+  },
+  {
+    "filename": "Kandelaar.jpeg",
+    "title": "Kandelaar"
+  },
+  {
+    "filename": "Kandelaar.jpg",
+    "title": "Kandelaar"
+  },
+  {
+    "filename": "Kandelaar_2.jpeg",
+    "title": "Kandelaar 2"
+  },
+  {
+    "filename": "Kat.jpeg",
+    "title": "Kat"
+  },
+  {
+    "filename": "Kat_op_wieltjes.jpg",
+    "title": "Kat op wieltjes"
+  },
+  {
+    "filename": "Kerstklok.jpg",
+    "title": "Kerstklok"
+  },
+  {
+    "filename": "Kerstklok_2.jpeg",
+    "title": "Kerstklok 2"
+  },
+  {
+    "filename": "Kerstklok_3.jpeg",
+    "title": "Kerstklok 3"
+  },
+  {
+    "filename": "Kerstklokje_2.jpeg",
+    "title": "Kerstklokje 2"
+  },
+  {
+    "filename": "Kiekeboe.jpeg",
+    "title": "Kiekeboe"
+  },
+  {
+    "filename": "Kleine_Urn.jpeg",
+    "title": "Kleine Urn"
+  },
+  {
+    "filename": "Krukje.jpeg",
+    "title": "Krukje"
+  },
+  {
+    "filename": "Man_Vrouw.jpeg",
+    "title": "Man Vrouw"
+  },
+  {
+    "filename": "Mediator_poppetjes.jpeg",
+    "title": "Mediator poppetjes"
+  },
+  {
+    "filename": "Olifant.jpeg",
+    "title": "Olifant"
+  },
+  {
+    "filename": "Ooievaar.jpg",
+    "title": "Ooievaar"
+  },
+  {
+    "filename": "Ooievaars_2.jpeg",
+    "title": "Ooievaars 2"
+  },
+  {
+    "filename": "Paardje.jpeg",
+    "title": "Paardje"
+  },
+  {
+    "filename": "Peer.jpeg",
+    "title": "Peer"
+  },
+  {
+    "filename": "Pinokkio.jpeg",
+    "title": "Pinokkio"
+  },
+  {
+    "filename": "Poes.jpeg",
+    "title": "Poes"
+  },
+  {
+    "filename": "Pop_vrouw.jpeg",
+    "title": "Pop vrouw"
+  },
+  {
+    "filename": "Poppetje.jpg",
+    "title": "Poppetje"
+  },
+  {
+    "filename": "Pot_met_onderzetters.jpeg",
+    "title": "Pot met onderzetters"
+  },
+  {
+    "filename": "Potje.jpeg",
+    "title": "Potje"
+  },
+  {
+    "filename": "Potje_met_deksel.jpg",
+    "title": "Potje met deksel"
+  },
+  {
+    "filename": "Racewagen.jpg",
+    "title": "Racewagen"
+  },
+  {
+    "filename": "Rechter_Hamer.jpeg",
+    "title": "Rechter Hamer"
+  },
+  {
+    "filename": "Slakken.jpg",
+    "title": "Slakken"
+  },
+  {
+    "filename": "Sneeuwpop_Piek.jpeg",
+    "title": "Sneeuwpop Piek"
+  },
+  {
+    "filename": "Sneeuwpop_ski.jpeg",
+    "title": "Sneeuwpop ski"
+  },
+  {
+    "filename": "Specht.jpeg",
+    "title": "Specht"
+  },
+  {
+    "filename": "Stel.jpeg",
+    "title": "Stel"
+  },
+  {
+    "filename": "Theelicht_houders.jpeg",
+    "title": "Theelicht houders"
+  },
+  {
+    "filename": "Tractor.jpeg",
+    "title": "Tractor"
+  },
+  {
+    "filename": "Tractor_2.jpeg",
+    "title": "Tractor 2"
+  },
+  {
+    "filename": "Tulp.jpeg",
+    "title": "Tulp"
+  },
+  {
+    "filename": "Urn.jpeg",
+    "title": "Urn"
+  },
+  {
+    "filename": "Vaas.jpg",
+    "title": "Vaas"
+  },
+  {
+    "filename": "Vogel.jpeg",
+    "title": "Vogel"
+  },
+  {
+    "filename": "Vogel_2.jpeg",
+    "title": "Vogel 2"
+  },
+  {
+    "filename": "Vogel_Eierdop.jpeg",
+    "title": "Vogel Eierdop"
+  },
+  {
+    "filename": "Vogel_in_stam.jpeg",
+    "title": "Vogel in stam"
+  },
+  {
+    "filename": "Vogel_op_stok.jpg",
+    "title": "Vogel op stok"
+  },
+  {
+    "filename": "Vogeltje.jpg",
+    "title": "Vogeltje"
+  },
+  {
+    "filename": "Vogeltje_2.jpeg",
+    "title": "Vogeltje 2"
+  },
+  {
+    "filename": "Vrachtwagen.jpeg",
+    "title": "Vrachtwagen"
+  },
+  {
+    "filename": "Vrachtwagen.jpg",
+    "title": "Vrachtwagen"
+  },
+  {
+    "filename": "Vrachtwagen_2.jpeg",
+    "title": "Vrachtwagen 2"
+  },
+  {
+    "filename": "Wijnfles_Onderzetters.jpeg",
+    "title": "Wijnfles Onderzetters"
+  },
+  {
+    "filename": "Wijnfles_onderzetters_2.jpeg",
+    "title": "Wijnfles onderzetters 2"
   }
 ]
