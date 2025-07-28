@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - TinyWoodArts.nl</title>
+  <link rel="icon" href="images/logo/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="images/logo/favicon.ico">
+  <link rel="apple-touch-icon" href="images/logo/apple-touch-icon.ico">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="images/logo/logo_tiny_boom.png" alt="Logo TinyWoodArts" class="logo" />
+      <h1>TinyWoodArts.nl</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="album.html">Fotoalbum</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+   <section class="contact">
+  <section class="contact">
+  <h2>Contacteer ons</h2>
+  <form id="contactForm" method="POST">
+    
+    <!-- Honeypot veld tegen spam -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <label for="name">Naam:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Bericht:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Verstuur</button>
+  </form>
+  <div id="formAlert" class="alert" style="display: none;">
+    <span class="alert-icon">✔️</span>
+    <p class="alert-text">Bedankt voor je bericht! We nemen snel contact op.</p>
+  </div>
+</section>
+
+
+
+  </main>
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contactForm");
+    const alertBox = document.getElementById("formAlert");
+
+    // 🛡️ Verberg action voor bots, maar stel 'm pas in na load
+    form.setAttribute("action", "https://formspree.io/f/xpwdbprv");
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const data = new FormData(form);
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: data,
+          headers: {
+            "Accept": "application/json"
+          }
+        });
+
+        if (response.status === 200) {
+          form.reset();
+          showAlert("✔️ Bedankt voor je bericht! We nemen snel contact op.", "success");
+        } else {
+          showAlert("❌ Er ging iets mis. Probeer opnieuw of mail ons direct.", "error");
+        }
+      } catch (error) {
+        showAlert("❌ Netwerkfout. Controleer je verbinding en probeer opnieuw.", "error");
+      }
+    });
+
+  function showAlert(message, type) {
+    alertBox.style.display = "flex";
+    alertBox.innerHTML = `<p class="alert-text">${message}</p>`;
+
+    alertBox.style.backgroundColor = type === "success" ? "#e0f2e9" : "#f8d7da";
+    alertBox.style.color = type === "success" ? "#2d5936" : "#842029";
+    alertBox.style.border = type === "success" ? "1px solid #a5d6b4" : "1px solid #f5c2c7";
+
+    setTimeout(() => {
+      alertBox.style.display = "none";
+    }, 6000);
+  }
+});
+</script>
+</html>
