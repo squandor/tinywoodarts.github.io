@@ -17,11 +17,39 @@ body {
   color: var(--text-dark);
 }
 
+body::after {
+  content: "";
+  display: block;
+  height: 20px; 
+}
+
 header {
   background: linear-gradient(to right, var(--dark-brown), var(--green));
   color: var(--white);
   padding: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #658059;      /* afgestemd op het groene accent uit de header */
+  color: #f5f3ec;                  /* lichte crèmekleur voor goede leesbaarheid */
+  text-align: center;
+  padding: 5px 0;                  /* nog smaller balkje */
+  font-size: 0.75rem;              /* kleinere tekst, subtieler */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.1);
+}
+
+footer a {
+  color: #e4e2d4;                 /* lichtere linkkleur */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 .container {
     max-width: 800px;
