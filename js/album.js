@@ -1,4 +1,7 @@
-fetch('images.json')
+fetch('images.json?v=' + Date.now(), {
+    cache: 'no-store'
+})
+//fetch('images.json')
   .then(response => response.json())
   .then(images => {
     const gallery = document.getElementById('gallery-container');
